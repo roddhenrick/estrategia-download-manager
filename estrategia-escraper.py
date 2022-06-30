@@ -142,8 +142,8 @@ def main():
     #navegador.maximize_window()
     navegador.implicitly_wait(20)
     
-    user_email = 'bondecaminhoneiros@gmail.com'
-    user_senha = 'Papafox22'
+    user_email = input('Informe seu login: ')
+    user_senha = input('Informe sua senha: ')
     
     print('Aguarde enquanto carregamos os dados')
     
